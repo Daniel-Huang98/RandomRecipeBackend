@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '@z#i!%l=muo(afc%@u(tqd=68rr@a^=_$xceva7o7*^8e___4$'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['randomrecipeapi.herokuapp.com']
 
 
 # Application definition

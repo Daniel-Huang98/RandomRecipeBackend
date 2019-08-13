@@ -12,4 +12,4 @@ WORKDIR /app
 RUN pip3 install -r requirements.txt
 RUN ls -a
 
-CMD ["python3", "./manage.py", "runserver", "0.0.0.0:8000"]
+CMD python3 ./manage.py runserver 0.0.0.0:$PORT
